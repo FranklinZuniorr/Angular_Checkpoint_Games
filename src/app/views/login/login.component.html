@@ -1,0 +1,39 @@
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/assets/css/style2.css">
+
+</head>
+
+<body style="background-color: #161616;">
+    
+    
+    
+
+        <form (ngSubmit)="receberDados()">
+        <div class="meio">
+        <div class="login1">
+
+            <img src="\assets\img\logoo.png" id="logo">
+            
+            <input type="email" name="email" id="email" placeholder="Insira o seu nome de usuário!" class="form-control" [(ngModel)]="userModel.email">
+            <input type="password" name="password" id="senha" placeholder="Insira a sua senha!" class="form-control" [(ngModel)]="userModel.password">
+
+            <input type="button" type="submit" id="entrar" value="Entrar" class="btn btn-success" *ngIf="cadastroLogin === 1"/>
+            <input type="button" type="submit" id="cadastrar" value="Cadastrar" class="btn btn-warning" *ngIf="cadastroLogin === 0"/>
+
+            <input type="button" id="lg" value="Login" class="btn btn-primary" (click)="ttt(1)"  onclick="alter(0)" />
+            <input type="button" id="lg2" value="Cadastro" class="btn btn-secondary" (click)="ttt(0)" onclick="alter(1)"/>
+
+            <a routerLink = "/home"><img src="\assets\img\inicial.png" id="inicial"></a>
+
+        </div>
+        </div>
+        </form>
+
+        <app-logintext *ngIf="cadastroLogin === 1"></app-logintext>
+        <app-cadastrotext *ngIf="cadastroLogin === 0"></app-cadastrotext>
+
+</body>
+
+
