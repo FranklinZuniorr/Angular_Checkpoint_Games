@@ -32,7 +32,7 @@
 
 .bg-light{
     position: absolute;
-    margin-bottom: 616px;
+    margin-bottom: -44px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     z-index: 1;
@@ -141,7 +141,7 @@ img#inicial{
 
 .bg-light{
     position: absolute;
-    margin-bottom: 616px;
+    margin-bottom: -44px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     z-index: 1;
