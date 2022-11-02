@@ -5,11 +5,10 @@
 
 </head>
 
+
 <body style="background-color: #161616;">
     
     
-    
-
         <form (ngSubmit)="receberDados()">
         <div class="meio">
         <div class="login1">
@@ -25,12 +24,16 @@
             <input type="button" id="lg" value="Login" class="btn btn-primary" (click)="ttt(1)"  onclick="alter(0)" />
             <input type="button" id="lg2" value="Cadastro" class="btn btn-secondary" (click)="ttt(0)" onclick="alter(1)"/>
 
+            
             <a routerLink = "/home"><img src="\assets\img\inicial.png" id="inicial"></a>
+            
+        
+
 
         </div>
         </div>
         </form>
-
+        
         <app-logintext *ngIf="cadastroLogin === 1"></app-logintext>
         <app-cadastrotext *ngIf="cadastroLogin === 0"></app-cadastrotext>
 
