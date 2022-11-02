@@ -242,7 +242,7 @@ function start(tipo) {
         '<div class="pdimg"><img src="/assets/img/comprar.png" class="cp"></div>' +
         '<div class="pdtxt">' + produtos[t].titulo + '</div>' +
         '<div class="pdvalor">' + produtos[t].valor + '</div>' +
-        '</div>' + '<div style="background-color: #A63232; width: 0.6%; height: auto; margin-left: 5%; margin-right: 5%;"></div>' + '</div>';
+        '</div>' + '<div style="background-color: #A63232; width: 0.2%; height: auto; margin-left: 5%; margin-right: 5%;"></div>' + '</div>';
 
     }
     }
@@ -304,7 +304,7 @@ function start(tipo) {
         '<div class="pdimg"><img src="/assets/img/comprar.png" class="cp"></div>' +
         '<div class="pdtxt">' + filtro[t].titulo + '</div>' +
         '<div class="pdvalor">' + filtro[t].valor + '</div>' +
-        '</div>' + '<div style="background-color: #A63232; width: 0.6%; height: auto; margin-left: 5%; margin-right: 5%;"></div>' + '</div>';
+        '</div>' + '<div style="background-color: #A63232; width: 0.2%; height: auto; margin-left: 5%; margin-right: 5%;"></div>' + '</div>';
 
     }
     }
@@ -370,7 +370,7 @@ function vertudo(){
         '<div class="pdimg"><img src="/assets/img/comprar.png" class="cp"></div>' +
         '<div class="pdtxt">' + produtos[t].titulo + '</div>' +
         '<div class="pdvalor">' + produtos[t].valor + '</div>' +
-        '</div>' + '<div style="background-color: #A63232; width: 0.6%; height: auto; margin-left: 5%; margin-right: 5%;"></div>' + '</div>';
+        '</div>' + '<div style="background-color: #A63232; width: 0.2%; height: auto; margin-left: 5%; margin-right: 5%;"></div>' + '</div>';
         
     }
 
@@ -434,7 +434,7 @@ function vertudo(){
         '<div class="pdimg"><img src="/assets/img/comprar.png" class="cp"></div>' +
         '<div class="pdtxt">' + filtro[t].titulo + '</div>' +
         '<div class="pdvalor">' + filtro[t].valor + '</div>' +
-        '</div>' + '<div style="background-color: #A63232; width: 0.6%; height: auto; margin-left: 5%; margin-right: 5%;"></div>' + '</div>';
+        '</div>' + '<div style="background-color: #A63232; width: 0.2%; height: auto; margin-left: 5%; margin-right: 5%;"></div>' + '</div>';
         
     }
 
